@@ -83,7 +83,7 @@ The following component implements an input field for a single control, using re
 <code-example path="forms-overview/src/app/reactive/favorite-color/favorite-color.component.ts">
 </code-example>
 
-Figure 1 shows how, in reactive forms, the form model is the source of truth; it provides the value and status of the form element at any given point in time, through the `[formControl]` directive on the input element.
+Figure 1 shows how, in reactive forms, the form model (a `FormControl` instance) is the source of truth; it provides the value and status of the form element at any given point in time, through the `[formControl]` directive on the input element.
 
 **Figure 1.** *Direct access to forms model in a reactive form.*
 
